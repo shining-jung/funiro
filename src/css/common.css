@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+:root {
+    --pc-gap: 10rem;
+    --pc-con: 123.6rem;
+    --cr-b1: #000;
+    --cr-b2: #333;
+    --cr-b3: #3a3a3a;
+    --cr-w1: rgba(255, 255, 255, 1);
+    --cr-w2: rgba(255, 255, 255, 0.6);
+    --cr-w3: rgba(255, 255, 255, 0.5);
+    --cr-g1: #9f9f9f;
+    --cr-g2: #d9d9d9;
+    --cr-br1: #b88e2f;
+    --cr-lbr: #fff3e3;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+a {
+    color: var(--cr-b1);
+    transition: 0.3s;
+}
+a:hover {
+    color: var(--cr-br1);
+}
+
+.mw {
+    width: calc(100% - var(--pc-gap) * 2);
+    margin: 0 auto;
+}
+.btn {
+    transition: 0.3s;
+}
+.btn.primary {
+    background: var(--cr-br1);
+    color: var(--cr-w1);
+}
+.btn.secondary {
+    border: 1px solid var(--cr-br1);
+    color: var(--cr-br1);
+}
+.btn.secondary:hover {
+    background: var(--cr-br1);
+    color: var(--cr-w1);
+}

@@ -1,0 +1,304 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "name": "Muggo",
+            "des": "Small mug",
+            "img": "img00.jpg",
+            "price": "150000",
+            "category": "new",
+            "discount": "5",
+            "type": "Dining"
+        },
+        {
+            "id": "2",
+            "name": "Grifo",
+            "des": "Night lamp",
+            "img": "img01.jpg",
+            "price": "200000",
+            "category": "top",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "3",
+            "name": "Lampio",
+            "des": "Desk lamp",
+            "img": "img02.jpg",
+            "price": "175000",
+            "category": "new",
+            "discount": "10",
+            "type": "Living"
+        },
+        {
+            "id": "4",
+            "name": "Cupsy",
+            "des": "Large cup",
+            "img": "img03.jpg",
+            "price": "120000",
+            "category": "sale",
+            "discount": "15",
+            "type": "Dining"
+        },
+        {
+            "id": "5",
+            "name": "Plantify",
+            "des": "Small plant pot",
+            "img": "img04.jpg",
+            "price": "90000",
+            "category": "new",
+            "discount": "0",
+            "type": "Living"
+        },
+        {
+            "id": "6",
+            "name": "Wallo",
+            "des": "Wall clock",
+            "img": "img05.jpg",
+            "price": "210000",
+            "category": "top",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "7",
+            "name": "Organizo",
+            "des": "Desk organizer",
+            "img": "img06.jpg",
+            "price": "95000",
+            "category": "sale",
+            "discount": "20",
+            "type": "Living"
+        },
+        {
+            "id": "8",
+            "name": "Chairio",
+            "des": "Office chair",
+            "img": "img07.jpg",
+            "price": "320000",
+            "category": "new",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "9",
+            "name": "Pillo",
+            "des": "Comfortable pillow",
+            "img": "img08.jpg",
+            "price": "110000",
+            "category": "sale",
+            "discount": "25",
+            "type": "Bedroom"
+        },
+        {
+            "id": "10",
+            "name": "Rugo",
+            "des": "Living room rug",
+            "img": "img09.jpg",
+            "price": "270000",
+            "category": "top",
+            "discount": "10",
+            "type": "Living"
+        },
+        {
+            "id": "11",
+            "name": "Tableo",
+            "des": "Coffee table",
+            "img": "img10.jpg",
+            "price": "350000",
+            "category": "new",
+            "discount": "0",
+            "type": "Living"
+        },
+        {
+            "id": "12",
+            "name": "Bookshe",
+            "des": "Bookshelf",
+            "img": "img11.jpg",
+            "price": "220000",
+            "category": "sale",
+            "discount": "15",
+            "type": "Living"
+        },
+        {
+            "id": "13",
+            "name": "Cabino",
+            "des": "Storage cabinet",
+            "img": "img12.jpg",
+            "price": "410000",
+            "category": "top",
+            "discount": "10",
+            "type": "Living"
+        },
+        {
+            "id": "14",
+            "name": "Shelfo",
+            "des": "Wall shelf",
+            "img": "img13.jpg",
+            "price": "180000",
+            "category": "new",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "15",
+            "name": "Vaso",
+            "des": "Glass vase",
+            "img": "img14.jpg",
+            "price": "80000",
+            "category": "sale",
+            "discount": "20",
+            "type": "Living"
+        },
+        {
+            "id": "16",
+            "name": "Curtino",
+            "des": "Window curtains",
+            "img": "img15.jpg",
+            "price": "130000",
+            "category": "top",
+            "discount": "5",
+            "type": "Bedroom"
+        },
+        {
+            "id": "17",
+            "name": "Cusho",
+            "des": "Decorative cushion",
+            "img": "img16.jpg",
+            "price": "95000",
+            "category": "new",
+            "discount": "10",
+            "type": "Living"
+        },
+        {
+            "id": "18",
+            "name": "Clocksy",
+            "des": "Alarm clock",
+            "img": "img17.jpg",
+            "price": "67000",
+            "category": "sale",
+            "discount": "25",
+            "type": "Bedroom"
+        },
+        {
+            "id": "19",
+            "name": "Frameo",
+            "des": "Photo frame",
+            "img": "img18.jpg",
+            "price": "45000",
+            "category": "top",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "20",
+            "name": "Mattresso",
+            "des": "Comfortable mattress",
+            "img": "img19.jpg",
+            "price": "580000",
+            "category": "new",
+            "discount": "0",
+            "type": "Bedroom"
+        },
+        {
+            "id": "21",
+            "name": "Mirro",
+            "des": "Wall mirror",
+            "img": "img20.jpg",
+            "price": "250000",
+            "category": "sale",
+            "discount": "15",
+            "type": "Living"
+        },
+        {
+            "id": "22",
+            "name": "Blindo",
+            "des": "Window blinds",
+            "img": "img21.jpg",
+            "price": "140000",
+            "category": "top",
+            "discount": "10",
+            "type": "Living"
+        },
+        {
+            "id": "23",
+            "name": "Doormato",
+            "des": "Welcome mat",
+            "img": "img22.jpg",
+            "price": "30000",
+            "category": "new",
+            "discount": "5",
+            "type": "Living"
+        },
+        {
+            "id": "24",
+            "name": "Fano",
+            "des": "Ceiling fan",
+            "img": "img23.jpg",
+            "price": "210000",
+            "category": "sale",
+            "discount": "20",
+            "type": "Living"
+        },
+        {
+            "id": "25",
+            "name": "Blanketo",
+            "des": "Warm blanket",
+            "img": "img24.jpg",
+            "price": "160000",
+            "category": "top",
+            "discount": "5",
+            "type": "Bedroom"
+        },
+        {
+            "id": "26",
+            "name": "Organizero",
+            "des": "Closet organizer",
+            "img": "img25.jpg",
+            "price": "85000",
+            "category": "new",
+            "discount": "10",
+            "type": "Bedroom"
+        },
+        {
+            "id": "27",
+            "name": "Kitcho",
+            "des": "Kitchen set",
+            "img": "img26.jpg",
+            "price": "500000",
+            "category": "sale",
+            "discount": "15",
+            "type": "Dining"
+        },
+        {
+            "id": "28",
+            "name": "Utensilo",
+            "des": "Cooking utensils",
+            "img": "img27.jpg",
+            "price": "60000",
+            "category": "top",
+            "discount": "5",
+            "type": "Dining"
+        },
+        {
+            "id": "29",
+            "name": "Lighto",
+            "des": "LED light",
+            "img": "img28.jpg",
+            "price": "120000",
+            "category": "new",
+            "discount": "0",
+            "type": "Living"
+        },
+        {
+            "id": "30",
+            "name": "Curtino Deluxe",
+            "des": "Luxury curtains",
+            "img": "img29.jpg",
+            "price": "330000",
+            "category": "sale",
+            "discount": "20",
+            "type": "Bedroom"
+        }
+    ]
+}

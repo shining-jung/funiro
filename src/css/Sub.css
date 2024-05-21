@@ -1,0 +1,111 @@
+.mw {
+    width: calc(100% - var(--pc-gap) * 2);
+    max-width: var(--pc-con);
+    margin: 0 auto;
+}
+
+.subTopBar {
+    background: var(--cr-lbr);
+    padding: 2.2rem 0;
+}
+.subTopBar > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subTopBar > div > div:first-of-type {
+    display: flex;
+    gap: 2.4rem;
+    color: var(--cr-b1);
+}
+.filterBtn {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.filterBtn::before {
+    content: "\f1de";
+    font: var(--fa-font-solid);
+    padding-right: 1.2rem;
+    font-size: 1.6rem;
+}
+.subTopBar .subTopInfo {
+    padding-left: 3.4rem;
+    position: relative;
+}
+.subTopBar .subTopInfo strong {
+    font-weight: 600;
+    color: var(--cr-br1);
+}
+.subTopBar .subTopInfo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 1px;
+    height: 3.7rem;
+    background-color: #9f9f9f;
+}
+.subTopBar label {
+    font-size: 2rem;
+    margin-left: 2.9rem;
+}
+.subTopBar input {
+    border: 0;
+    padding: 1.2rem;
+    color: var(--cr-b1);
+    background: var(--cr-w1);
+    font-size: 2rem;
+    margin-left: 1.7rem;
+}
+.subTopBar input[type="number"] {
+    width: 5rem;
+    text-align: center;
+}
+.subTopBar input[type="text"] {
+    max-width: 18rem;
+    padding-left: 3rem;
+}
+.subTopBar input[type="text"]::placeholder {
+    color: #9f9f9f;
+}
+.subTopBar > div:last-of-type .btn {
+    height: 5.4rem;
+    padding: 0 2rem;
+}
+.subTopBar > div:last-of-type .btn:hover {
+    opacity: 0.8;
+}
+
+.shop section:last-of-type {
+    padding: 6.3rem 0 8.5rem 0;
+}
+
+.shop .pagiNation {
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.8rem;
+}
+.shop .pagiNation button {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    min-width: 6rem;
+    padding: 0 2.4rem;
+    border-radius: 1rem;
+    background: var(--cr-lbr);
+    transition: 0.3s;
+}
+
+.shop .pagiNation button.active {
+    background: var(--cr-br1);
+    color: var(--cr-w1);
+}
+.shop .pagiNation button:hover {
+    background: rgba(184, 142, 47, 0.5);
+}

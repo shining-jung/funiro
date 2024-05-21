@@ -1,0 +1,26 @@
+.subVis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12rem 0 9.7rem 0;
+    color: var(--cr-b1);
+    background-size: cover;
+    gap: 0 1rem;
+}
+
+.subVis h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.subVis > a {
+    font-weight: 500;
+}
+
+.subVis > span {
+    font-weight: 300;
+}

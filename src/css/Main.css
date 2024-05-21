@@ -1,0 +1,125 @@
+/*Main Visual*/
+
+.MainVis .swiper-slide {
+    padding: 15.3rem 5.8rem 11.6rem 50%;
+    background-size: cover;
+}
+.MainVis .description {
+    width: 100%;
+    padding: 6.2rem 4.3rem 3.7rem 3.9rem;
+    max-width: 64.3rem;
+    background: var(--cr-lbr);
+}
+
+.MainVis .swiper-button-next,
+.MainVis .swiper-button-prev {
+    filter: invert(54%) sepia(92%) saturate(333%) hue-rotate(4deg) brightness(88%) contrast(91%);
+}
+.MainVis .description > span {
+    letter-spacing: 0.3rem;
+    color: var(--cr-b2);
+    font-weight: 600;
+}
+.MainVis .description > h2 {
+    font-size: 5.2rem;
+    line-height: 6.5rem;
+    font-weight: 700;
+    color: var(--cr-br1);
+    padding: 0.4rem 0 1.7rem;
+}
+.MainVis .description > p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding-bottom: 4.6rem;
+    font-weight: 500;
+    color: var(--cr-b2);
+}
+.MainVis .description .btn {
+    padding: 2.5rem 7.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/*Main Type Item*/
+.mainTypeItem {
+    width: calc(100% - var(--pc-gap) * 2);
+    margin: 0 auto;
+    padding: 6.5rem 2.4rem 0 2.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0 2rem;
+}
+.mainTypeItem > h2 {
+    color: var(--cr-b2);
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 100%;
+    line-height: 160%;
+    text-align: center;
+}
+.mainTypeItem > span {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 6.4rem;
+    line-height: 160%;
+    color: #666;
+}
+
+.mainTypeItem a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mainTypeItem a img {
+    border-radius: 1rem;
+    position: relative;
+    transition: 0.3s;
+}
+
+.mainTypeItem a span {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--cr-b2);
+    padding-top: 3rem;
+    transition: 0.3s;
+}
+.mainTypeItem a:hover span {
+    color: var(--cr-br1);
+}
+.mainTypeItem a:hover img {
+    filter: sepia(44%) hue-rotate(8deg) brightness(83%) contrast(69%);
+}
+
+/*main list*/
+.mainList {
+    width: calc(100% - var(--pc-gap) * 2);
+    max-width: var(--pc-con);
+    margin: 0 auto;
+    padding: 5.6rem 0 6.9rem 0;
+    text-align: center;
+}
+.mainList h2 {
+    padding: 0 0 3.2rem 0;
+    color: var(--cr-b3);
+    font-size: 4rem;
+    line-height: 120%;
+    font-weight: 700;
+}
+.listCon {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(28.5rem, 1fr));
+    gap: 3.2rem;
+}
+.mainList .btn.secondary {
+    display: inline-block;
+    margin: 3.2rem 0 0 0;
+    padding: 1.2rem 8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 150%;
+}

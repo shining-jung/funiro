@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 5.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav,
+.header div {
+    display: flex;
+    gap: 2rem;
+}
+
+.header nav a {
+    color: var(--cr-b1);
+    font-weight: 500;
+    padding: 1rem 2.5rem;
+    transition: 0.3s;
+}
+.header div {
+    padding-right: 3.45rem;
+}
+.header div a {
+    padding: 1rem 1.25rem;
+}
+.header div a img {
+    transition: 0.3s;
+}
+.header nav a:hover {
+    color: var(--cr-br1);
+}
+.header div a:hover img {
+    filter: invert(53%) sepia(9%) saturate(3320%) hue-rotate(4deg) brightness(106%) contrast(83%);
+}

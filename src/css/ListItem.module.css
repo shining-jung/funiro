@@ -1,0 +1,136 @@
+.listItem {
+    position: relative;
+}
+
+.thum {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 105.265%;
+}
+.thum .onArea,
+.thum > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.thum > img {
+    object-fit: cover;
+}
+
+.thum .onArea {
+    opacity: 0;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 3rem 1.6rem;
+    gap: 2.4rem 1.8rem;
+    transition: 0.3s;
+}
+.thum .onArea button {
+    color: var(--cr-w1);
+    font-weight: 600;
+}
+.thum .onArea button:first-of-type {
+    width: calc(100% - 5rem);
+    padding: 1.2rem 0;
+    line-height: 150%;
+    color: var(--cr-br1);
+    background: var(--cr-w1);
+    transition: 0.3s;
+}
+.thum .onArea button:first-of-type:hover {
+    background: var(--cr-br1);
+    color: var(--cr-w1);
+    transition: 0.3s;
+}
+.thum .onArea button:nth-of-type(n + 2) {
+    display: flex;
+    gap: 0.4rem;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.thum .onArea button:nth-of-type(n + 2):hover {
+    transform: scale(1.05);
+}
+
+.thum:hover .onArea {
+    opacity: 1;
+}
+
+.info {
+    text-align: left;
+    padding: 1.6rem 1.6rem 1.6rem 3rem;
+    color: var(--cr-b3);
+    cursor: pointer;
+    transition: 0.3s;
+    background: #f4f5f7;
+}
+
+.info > * {
+    transition: 0.3s;
+}
+
+.info strong,
+.info p {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.info strong {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 120%;
+}
+.info p {
+    color: #898989;
+    padding: 0.8rem 0;
+    line-height: 150%;
+}
+.info .setPrice {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.info .itemPrice {
+    color: #b0b0b0;
+    padding-left: 1.6rem;
+    text-decoration: line-through;
+}
+
+.info:hover p,
+.info:hover .itemPrice,
+.info:hover {
+    color: var(--cr-br1);
+    background-color: var(--cr-lbr);
+}
+
+.bullet {
+    position: absolute;
+    top: 2.4rem;
+    right: 2.4rem;
+    z-index: 2;
+    display: flex;
+    gap: 0.6rem;
+}
+.bullet span {
+    color: var(--cr-w1);
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.itemCate {
+    background: #2ec1ac;
+}
+.itemDiscount {
+    background: #e97171;
+}
