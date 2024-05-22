@@ -89,13 +89,19 @@ const Shop = () => {
                     {currentPage === 1 || lastPage === 0 ? null : <button onClick={goPrevPage}>Prev</button>}
                     {Array.from({ length: Math.min(5, lastPage) }, (_, i) => {
                         let Num;
-                        if (currentPage <= 2) {
+                        if (lastPage <= 5) {
+                            Num = i + 1;
+                        } else if (currentPage <= 2) {
                             Num = i + 1;
                         } else if (currentPage >= lastPage - 1) {
-                            Num = lastPage - (4 - i);
+                            Num = lastPage - 4 + i;
                         } else {
                             Num = currentPage - 2 + i;
                         }
+                        if (Num < 1 || Num > lastPage) {
+                            return null;
+                        }
+
                         return (
                             <button
                                 key={Num}
